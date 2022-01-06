@@ -17,10 +17,10 @@ int val4 = 0;
 
 void setup()
 {
-  servo1.attach(9); // attach to ninth digital pwm output
-  servo2.attach(10); // tenth
-  servo3.attach(11); // eleventh 
-  servo4.attach(12); // eleventh 
+  servo1.attach(9); // attach to 9th digital pwm output
+  servo2.attach(10); // 10th
+  servo3.attach(11); // 11th 
+  servo4.attach(12); // 12th 
 }
 
 void loop() // constantly update servos to reflect rotation of potentiometers
